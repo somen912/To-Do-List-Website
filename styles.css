@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+
+body{
+  background-color: #00337C;
+  font-family: 'Caveat Brush', cursive;
+
+}
+
+#headerTag{
+  font-size: 50px;
+}
+
+.container{
+  border: 2px solid green;
+  width: 50rem;
+  margin: 2rem auto;
+  text-align: center;
+  background-color: #F2F7A1;
+  box-shadow: 0px 2px 5px;
+  padding:4%;
+}
+
+.inputSection{
+  width:60%;
+  font-size: 25px;
+  border: 0;
+  outline: 0;
+  box-shadow: 0px 0px 5px grey;
+}
+
+.enterButton{
+  width: 10%;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #03C988;
+  border-radius: 4px;
+  padding:7px;
+  border: 0;
+  outline: 0;
+  margin-left: 2%;
+  box-shadow: 0px 0px 10px grey;
+}
+
+.saveButton{
+  width: 10%;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #03C988;
+  border-radius: 4px;
+  padding:7px;
+  border: 0;
+  outline: 0;
+  margin-left: 2%;
+  box-shadow: 0px 0px 10px grey;
+}
+
+.userSection{
+  display: flex;
+  justify-content: center;
+}
+
+.todoList{
+  list-style: none;
+  margin-top: 5%;
+  padding:0;
+}
+
+.todoList li{
+background-color: #9DF1DF;
+margin: 2% auto;
+text-align: left;
+font-size: 30px;
+box-shadow: 0px 0px 5px black;
+padding: 2%;
+position: relative;
+}
+
+.todoList i{
+  position: absolute;
+  right:10px;
+  top: 10px;
+  color: red;
+}
+
+.checkBox{
+  height: 20px;
+  width: 20px;
+  margin-right: 1%;
+}
+
+.taskDone{
+  text-decoration: line-through;
+  background-color: #03C988 !important;
+}
+
+@media all and (max-width: 1100px)
+{
+  #headerTag{
+    font-size: 100px;
+  }
+
+  .inputSection{
+    width:60%;
+    font-size: 50px;
+    border: 0;
+    outline: 0;
+    box-shadow: 0px 0px 5px grey;
+  }
+
+  .todoList li{
+  background-color: #9DF1DF;
+  margin: 2% auto;
+  text-align: left;
+  font-size: 50px;
+  box-shadow: 0px 0px 5px black;
+  padding: 2%;
+  position: relative;
+  }
+
+  .saveButton{
+    width: 50%;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: #03C988;
+    border-radius: 4px;
+    padding:7px;
+    border: 0;
+    outline: 0;
+    margin-left: 2%;
+    box-shadow: 0px 0px 10px grey;
+  }
+
+  .enterButton{
+    width: 20%;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: #03C988;
+    border-radius: 4px;
+    padding:7px;
+    border: 0;
+    outline: 0;
+    margin-left: 2%;
+    box-shadow: 0px 0px 10px grey;
+  }
+
+}
